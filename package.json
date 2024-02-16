@@ -1,0 +1,45 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxtjs/toast": "^3.3.1",
+    "@vue/compiler-sfc": "^3.4.19",
+    "@vueuse/core": "^10.7.2",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "lucide-vue-next": "^0.330.0",
+    "nuxt": "^3.10.1",
+    "radix-vue": "^1.4.4",
+    "some-library": "^1.0.0",
+    "tailwind-merge": "^2.2.1",
+    "tailwind-variants": "^0.2.0",
+    "tailwind.config.js": "^1.0.6",
+    "v-calendar": "^3.1.2",
+    "vue": "^3.4.15",
+    "vue-router": "^4.2.5",
+    "vue-toastify": "^2.0.0-alpha.2"
+  },
+  "devDependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "^4.1.1",
+    "@nuxtjs/color-mode": "^3.3.2",
+    "@nuxtjs/tailwindcss": "^6.11.4",
+    "@vueuse/nuxt": "^10.7.2",
+    "autoprefixer": "^10.4.17",
+    "nuxt-icon": "^0.6.8",
+    "postcss": "^8.4.35",
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.11",
+    "shadcn-nuxt": "^0.9.0",
+    "tailwindcss": "^3.4.1",
+    "tailwindcss-animate": "^1.0.7",
+    "typescript": "^5.3.3"
+  }
+}
